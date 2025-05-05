@@ -1,0 +1,16 @@
+/* 自动换行是行高属性，手动换行是段间距属性 */
+.cm-line {
+    /* 编辑模式段间距 - 调整 */
+    padding-top: 0.3em !important;
+    padding-bottom: 0.3em !important;
+    /* 编辑模式行高 - 调整 */
+    line-height: 1.5em !important;
+}
+
+.markdown-rendered p {
+    /* 阅读模式段间距 - 调整 */
+    margin-block-start: 0.3em;
+    margin-block-end: 0.3em;
+    /* 阅读模式行高 - 调整 */
+    line-height: 1.5em !important;
+}

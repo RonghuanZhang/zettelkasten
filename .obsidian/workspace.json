@@ -1,0 +1,223 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Note Dashboard.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Note Dashboard"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e5cc2870a0b6adf6",
+    "type": "split",
+    "children": [
+      {
+        "id": "99017670c52ddfdb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1a691ae79a6e6694",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "94551627be9df78e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "617eb1cdc343d53b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "16784bdaedee3bd7",
+    "type": "split",
+    "children": [
+      {
+        "id": "8f03808b7d8bccbc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "14891d36a2cc90be",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Note Dashboard.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Note Dashboard"
+            }
+          },
+          {
+            "id": "9a6188795a6da438",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Note Dashboard.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Note Dashboard"
+            }
+          },
+          {
+            "id": "6e768227e97178ba",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "86a60f391e934d61",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Note Dashboard.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Note Dashboard"
+            }
+          },
+          {
+            "id": "49154bb6c053b782",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 423.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "homepage:Open homepage": false,
+      "obsidian-git:Open Git source control": false,
+      "card-board:CardBoard": false
+    }
+  },
+  "active": "e7a7b303c61786dc",
+  "lastOpenFiles": [
+    "Note Dashboard.md",
+    "LICENSE",
+    "zettelkasten/LICENSE",
+    "zettelkasten",
+    "fleet-notes/20250430105117-Web 3.0 Roadmap.md",
+    "sops/Zettelkasten SOP.md",
+    "daily-log/2025-04-30.md",
+    "Tasks Plugin - Review and check your Statuses 2025-04-30 15-06-53.md",
+    "templates/permanent-note-template.md",
+    "templates/daily-log-template.md",
+    "Untitled Kanban.md",
+    "sops",
+    "templates/fleet-note-template.md",
+    "fleet-notes/20250430133234-如何写一篇技术博客？.md",
+    "templates/literature-note-template.md",
+    "fleet-notes/250430130443-Obsidian最强插件：QuickAdd - 少数派.md",
+    "fleet-notes/-如何写一篇高质量的技术文章.md",
+    "roadmap/Untitled.md",
+    "fleet-notes/20250430103828-第一个 fleet.md",
+    "roadmap",
+    "Untitled.canvas",
+    "2025-04-30.md",
+    "20250430101624第一个Fleet.md",
+    "daily-log",
+    "fleet-notes/202504301007-的.md",
+    "fleet-notes/20250430102334-第三个.md",
+    "fleet-notes/20250430101846-第二个.md",
+    "fleet-notes/Test.md",
+    "test.md",
+    "templates",
+    "Welcome.md",
+    "project-notes",
+    "index-notes",
+    "permanent-notes"
+  ]
+}
