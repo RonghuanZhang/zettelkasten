@@ -101,8 +101,89 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.10.1",
-    "libraryItems": []
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.11.0",
+    "libraryItems": [
+      {
+        "status": "unpublished",
+        "elements": [
+          {
+            "id": "UKCm2E2w30GbaE87Pug_y",
+            "type": "rectangle",
+            "x": 671.4065643841981,
+            "y": 672.4721519601253,
+            "width": 217.90968291616335,
+            "height": 473.7355094121731,
+            "angle": 0,
+            "strokeColor": "#1e1e1e",
+            "backgroundColor": "transparent",
+            "fillStyle": "solid",
+            "strokeWidth": 2,
+            "strokeStyle": "solid",
+            "roughness": 1,
+            "opacity": 100,
+            "groupIds": [],
+            "frameId": null,
+            "index": "b0H",
+            "roundness": {
+              "type": 3
+            },
+            "seed": 1260342247,
+            "version": 829,
+            "versionNonce": 238269095,
+            "isDeleted": false,
+            "boundElements": [
+              {
+                "type": "text",
+                "id": "qXHQKQhH"
+              }
+            ],
+            "updated": 1746711775209,
+            "link": null,
+            "locked": false
+          },
+          {
+            "id": "qXHQKQhH",
+            "type": "text",
+            "x": 711.8514494824165,
+            "y": 884.3399066662118,
+            "width": 137.01991271972656,
+            "height": 50,
+            "angle": 0,
+            "strokeColor": "#1e1e1e",
+            "backgroundColor": "transparent",
+            "fillStyle": "solid",
+            "strokeWidth": 2,
+            "strokeStyle": "solid",
+            "roughness": 1,
+            "opacity": 100,
+            "groupIds": [],
+            "frameId": null,
+            "index": "b0I",
+            "roundness": null,
+            "seed": 1569613287,
+            "version": 741,
+            "versionNonce": 1251263943,
+            "isDeleted": false,
+            "boundElements": [],
+            "updated": 1746711775209,
+            "link": null,
+            "locked": false,
+            "text": "External Load\nBalancer",
+            "rawText": "External Load Balancer",
+            "fontSize": 20,
+            "fontFamily": 5,
+            "textAlign": "center",
+            "verticalAlign": "middle",
+            "containerId": "UKCm2E2w30GbaE87Pug_y",
+            "originalText": "External Load Balancer",
+            "autoResize": true,
+            "lineHeight": 1.25
+          }
+        ],
+        "id": "sKhkCfHVJaB3im1c_M7J_",
+        "created": 1746711782236
+      }
+    ]
   },
   "imageElementNotice": true,
   "mdSVGwidth": 500,

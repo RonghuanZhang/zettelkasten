@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "RiRoadMapLine",
-      "FasBlog",
-      "LiClipboard",
-      "LiBookA",
-      "LiNewspaper"
+      "FasBrain",
+      "RiStickyNoteAddFill",
+      "FasRuler",
+      "Fas0",
+      "RiRoadMapLine"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -34,10 +34,13 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "fleet-notes": "LiClipboard",
+  "fleet-notes": "RiStickyNoteAddFill",
   "permanent-notes": "LiNotebookPen",
   "literature-notes": "LiBookA",
   "index-notes": "LiLibraryBig",
   "project-notes": "FasBlog",
-  "roadmap": "RiRoadMapLine"
+  "roadmap": "RiRoadMapLine",
+  "source-notes": "Fas0",
+  "sops": "FasRuler",
+  "mindmaps": "FasBrain"
 }

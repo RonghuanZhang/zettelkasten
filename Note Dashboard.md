@@ -1,3 +1,7 @@
+# Personal SOP
+
+![[Daily SOP]]
+
 # Unprocessed Fleet Notes
 
 ```dataview

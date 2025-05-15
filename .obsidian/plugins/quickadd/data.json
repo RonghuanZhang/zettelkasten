@@ -17,7 +17,7 @@
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
+        "chooseFromSubfolders": true
       },
       "appendLink": false,
       "openFileInNewTab": {
@@ -78,6 +78,36 @@
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
         "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "8d94f2d3-65c6-476c-8006-9c0388ae7606",
+      "name": "New Source Note",
+      "type": "Template",
+      "command": true,
+      "templatePath": "templates/source-note-template.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{DATE:YYYYMMDDHHmmss}}-{{name}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "source-notes"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": true
       },
       "appendLink": false,
       "openFileInNewTab": {

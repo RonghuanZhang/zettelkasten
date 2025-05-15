@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "eadc108819113963",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "1471e9143433ca2c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Note Dashboard.md",
-                "mode": "source",
-                "source": false
+                "aFile": "bookmarks/《欧易区块链60讲》系列课程.md",
+                "bFile": "bookmarks/《欧易区块链60讲》系列课程.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Note Dashboard"
+              "icon": "diff",
+              "title": "Diff: 《欧易区块链60讲》系列课程"
             }
           }
         ]
@@ -40,7 +40,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byCreatedTime",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -53,12 +53,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "architecture",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTime"
               },
               "icon": "lucide-search",
               "title": "Search"
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 577.5
   },
   "right": {
     "id": "16784bdaedee3bd7",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note Dashboard.md",
+                "file": "source-notes/20250513173224-How to run gcloud command line using a service account.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Note Dashboard"
+              "title": "Backlinks for 20250513173224-How to run gcloud command line using a service account"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note Dashboard.md",
+                "file": "source-notes/20250513173224-How to run gcloud command line using a service account.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Note Dashboard"
+              "title": "Outgoing links from 20250513173224-How to run gcloud command line using a service account"
             }
           },
           {
@@ -129,8 +129,8 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
+                "showSearch": true,
+                "searchQuery": "cour"
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -142,13 +142,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note Dashboard.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Note Dashboard"
+              "title": "Outline"
             }
           },
           {
@@ -166,7 +165,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 423.5
+    "width": 283.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,41 +182,44 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "1471e9143433ca2c",
   "lastOpenFiles": [
-    "Note Dashboard.md",
-    "LICENSE",
-    "zettelkasten/LICENSE",
-    "zettelkasten",
-    "fleet-notes/20250430105117-Web 3.0 Roadmap.md",
-    "sops/Zettelkasten SOP.md",
-    "daily-log/2025-04-30.md",
-    "Tasks Plugin - Review and check your Statuses 2025-04-30 15-06-53.md",
-    "templates/permanent-note-template.md",
-    "templates/daily-log-template.md",
-    "Untitled Kanban.md",
-    "sops",
-    "templates/fleet-note-template.md",
-    "fleet-notes/20250430133234-如何写一篇技术博客？.md",
-    "templates/literature-note-template.md",
-    "fleet-notes/250430130443-Obsidian最强插件：QuickAdd - 少数派.md",
-    "fleet-notes/-如何写一篇高质量的技术文章.md",
-    "roadmap/Untitled.md",
-    "fleet-notes/20250430103828-第一个 fleet.md",
-    "roadmap",
-    "Untitled.canvas",
-    "2025-04-30.md",
-    "20250430101624第一个Fleet.md",
-    "daily-log",
-    "fleet-notes/202504301007-的.md",
-    "fleet-notes/20250430102334-第三个.md",
-    "fleet-notes/20250430101846-第二个.md",
-    "fleet-notes/Test.md",
-    "test.md",
-    "templates",
-    "Welcome.md",
-    "project-notes",
-    "index-notes",
-    "permanent-notes"
+    "fleet-notes/Knative/20250515172522-Knative CLI service.md",
+    "fleet-notes/GKE/20250514110638-GKE Deploy the service.md",
+    "fleet-notes/docker/20250515174252-Docker build platform.md",
+    "fleet-notes/Kubernetes/20250515174206-docker build --platform linux/amd64.md",
+    "fleet-notes/Kubernetes/20250515174206-docker build --platform linux",
+    "fleet-notes/GKE/20250513145138-GKE Push the image manually.md",
+    "fleet-notes/GKE/20250513144411-GKE Artifact Repository.md",
+    "fleet-notes/GKE/20250514101033-GKE Access the Cluster By Kubectl.md",
+    "Excalidraw/Sahara AI Infrastructure Knative Solution Architecture.md",
+    "fleet-notes/Knative/20250515171302-Knative CLI connect to the k8s cluster.md",
+    "fleet-notes/Knative/20250515170228-Knative CLI Install.md",
+    "fleet-notes/Knative/20250515152824-Knative Kourier Use the HTTPS.md",
+    "fleet-notes/Knative/20250515133746-Knative Configure A Custom Domain.md",
+    "fleet-notes/Knative/20250515105957-Knative Serving.md",
+    "fleet-notes/Knative/20250514165925-Deploy the Knative Service.md",
+    "fleet-notes/Knative/20250514143813-Install Knative On GKE.md",
+    "fleet-notes/go/20250515165803-Set the Mod Proxy.md",
+    "bookmarks/meteatamel-knative-tutorial A collection of samples for Knative Serving, Knative Eventing and Knative-GCP projects..md",
+    "source-notes/20250513164136-Deploy the Knative on GKE.md",
+    "bookmarks/Home - Knative.md",
+    "fleet-notes/Sahara Serverless/20250513111010-Knative Hands-on Guide.md",
+    "fleet-notes/go/20250513181256-Go Sample.md",
+    "source-notes/20250515111306-K8s External Name Service.md",
+    "Excalidraw/Drawing 2025-05-15 11.10.34.excalidraw.md",
+    "fleet-notes/Sahara Serverless/20250507164805-Google Cloud Run.md",
+    "fleet-notes/Sahara Serverless/20250509181345-Infrastructure for Sahafa AI Application Technology Design Document.md",
+    "fleet-notes/Sahara Serverless/20250511094152-Serverless and FaaS.md",
+    "fleet-notes/cli",
+    "fleet-notes/Knative",
+    "fleet-notes/GKE",
+    "fleet-notes/docker",
+    "fleet-notes/Kubernetes",
+    "fleet-notes/go",
+    "mindmaps/Serverless Platform.xmind",
+    "mindmaps",
+    "ai-prompts",
+    "Untitled.canvas"
   ]
 }
