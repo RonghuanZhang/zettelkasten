@@ -70,7 +70,7 @@ curl -H "Host: <service-name>.<namespace>.<custome-domain>" http://<gateway exte
 ## Step 7: Access the service by using the public domain.
 
 ```shell
-curl https://<service>.<namespace>.<custom-domain>
+curl http://<service>.<namespace>.<custom-domain>
 ```
 
 # Reference

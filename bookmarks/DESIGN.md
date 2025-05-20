@@ -5,7 +5,8 @@ url: https://dunwu.github.io/design/
 created: 2025-05-10T20:34:34
 tags:
   - bookmark
-  - tutorial/architecture
+  - tutorial
+  - architecture
 classified: true
 ---
 [DESIGN](https://dunwu.github.io/design/)

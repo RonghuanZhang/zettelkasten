@@ -35,7 +35,7 @@ kubectl apply -f https://github.com/knative/serving/releases/download/knative-v1
 ### Check the Resource After Knative-serving Is Installed
 
 ```shell
-erpang@erpangdeMacBook-Pro gke-knative-install % kubectl get pods -n knative-serving
+kubectl get pods -n knative-serving
 NAME                          READY   STATUS    RESTARTS   AGE
 activator-58dbdbb654-g4xxg    1/1     Running   0          29m
 autoscaler-d7cf99fdf-jdgsd    1/1     Running   0          29m
@@ -111,7 +111,7 @@ kubectl patch configmap/config-network \
   --patch '{"data":{"ingress-class":"kourier.ingress.networking.knative.dev"}}'
 ```
 
-Fetch the EXTERNAO IP address or CNAME by the command:
+Fetch the EXTERNAL IP address or CNAME by the command:
 
 ```shell
 kubectl --namespace kourier-system get service kourier

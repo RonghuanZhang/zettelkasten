@@ -1,6 +1,7 @@
 # After getting up
 * Study data structures and algorithms. Tackle one or more LeetCode problems.
 * Read books.
+* English Study
 # Daily commute
 * Listen to or watch an English technology video. ❌
 # Lunch hour

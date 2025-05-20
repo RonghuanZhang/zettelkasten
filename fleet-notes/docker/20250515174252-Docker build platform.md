@@ -7,7 +7,7 @@ url:
 tags:
   - fleet-note
   - docker
-  - kubenete
+  - kubernetes
 "processed:": false
 "archived:": false
 ---

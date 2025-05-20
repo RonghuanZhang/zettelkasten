@@ -4,24 +4,93 @@
     "type": "split",
     "children": [
       {
-        "id": "eadc108819113963",
+        "id": "98f451300616b367",
         "type": "tabs",
         "children": [
           {
-            "id": "1471e9143433ca2c",
+            "id": "145700d6cb2fcdf6",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "bookmarks/《欧易区块链60讲》系列课程.md",
-                "bFile": "bookmarks/《欧易区块链60讲》系列课程.md",
-                "aRef": ""
+                "file": "daily-log/2025-05-20.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 《欧易区块链60讲》系列课程"
+              "icon": "lucide-file",
+              "title": "2025-05-20"
+            }
+          },
+          {
+            "id": "991091bd77bc7ae6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "fleet-notes/Knative/20250519150714-Knative Custom Domain Pattern.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20250519150714-Knative Custom Domain Pattern"
+            }
+          },
+          {
+            "id": "805128308e94ca8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "daily-log/2025-05-20.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-05-20"
+            }
+          },
+          {
+            "id": "d7cf23f23958afb0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "fleet-notes/Knative/20250520163533-HTTP API of Knative.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20250520163533-HTTP API of Knative"
+            }
+          },
+          {
+            "id": "891542dbc6c8bdaa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "source-notes/20250520164209-Kubernets HTTP API.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20250520164209-Kubernets HTTP API"
+            }
+          },
+          {
+            "id": "57088c91b40f0ad4",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-05-20 14.42.35.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-05-20 14.42.35.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -53,7 +122,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "architecture",
+                "query": "tag:kubernetes",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +147,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 577.5
+    "width": 451.5
   },
   "right": {
     "id": "16784bdaedee3bd7",
@@ -130,7 +199,7 @@
                 "sortOrder": "frequency",
                 "useHierarchy": true,
                 "showSearch": true,
-                "searchQuery": "cour"
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -142,12 +211,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Excalidraw/Drawing 2025-05-20 14.42.35.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Drawing 2025-05-20 14.42.35.excalidraw"
             }
           },
           {
@@ -182,44 +252,45 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "1471e9143433ca2c",
+  "active": "49154bb6c053b782",
   "lastOpenFiles": [
-    "fleet-notes/Knative/20250515172522-Knative CLI service.md",
-    "fleet-notes/GKE/20250514110638-GKE Deploy the service.md",
-    "fleet-notes/docker/20250515174252-Docker build platform.md",
-    "fleet-notes/Kubernetes/20250515174206-docker build --platform linux/amd64.md",
-    "fleet-notes/Kubernetes/20250515174206-docker build --platform linux",
-    "fleet-notes/GKE/20250513145138-GKE Push the image manually.md",
-    "fleet-notes/GKE/20250513144411-GKE Artifact Repository.md",
-    "fleet-notes/GKE/20250514101033-GKE Access the Cluster By Kubectl.md",
-    "Excalidraw/Sahara AI Infrastructure Knative Solution Architecture.md",
-    "fleet-notes/Knative/20250515171302-Knative CLI connect to the k8s cluster.md",
-    "fleet-notes/Knative/20250515170228-Knative CLI Install.md",
-    "fleet-notes/Knative/20250515152824-Knative Kourier Use the HTTPS.md",
-    "fleet-notes/Knative/20250515133746-Knative Configure A Custom Domain.md",
-    "fleet-notes/Knative/20250515105957-Knative Serving.md",
+    "fleet-notes/Knative/20250520163533-HTTP API of Knative.md",
+    "source-notes/20250520164209-Kubernets HTTP API.md",
+    "source-notes/20250520164827-Kubernets Resource Group and Version.md",
+    "fleet-notes/Kubernetes/20250516100734-Kubernetes Resource Isolation.md",
+    "fleet-notes/Kubernetes/20250516100014-Kubernetes Service Account.md",
+    "Excalidraw/Drawing 2025-05-20 14.42.35.excalidraw.md",
+    "bookmarks/深入剖析 Kubernetes__Rye_的博客-CSDN博客.md",
+    "daily-log/2025-05-20.md",
+    "fleet-notes/Knative/20250516144300-Knative Resource Isolation Solution.md",
+    "source-notes/20250516140450-K8s service account 资源隔离.md",
     "fleet-notes/Knative/20250514165925-Deploy the Knative Service.md",
+    "fleet-notes/GKE/20250514110638-GKE Deploy the service.md",
+    "fleet-notes/GKE/20250514101033-GKE Access the Cluster By Kubectl.md",
+    "source-notes/20250520152208-【k8s开发必备技能】使用client-go包访问Kubernetes CRD-腾讯云开发者社区-腾讯云.md",
+    "fleet-notes/Knative/20250519150714-Knative Custom Domain Pattern.md",
+    "fleet-notes/vercel/20250520140213-Deploy the hexo blogs in vercel.md",
+    "fleet-notes/vercel",
+    "sops/Daily SOP.md",
+    "fleet-notes/git/20250520104631-Sync upstream with origin.md",
+    "fleet-notes/git/20250520103855-Git remote repo.md",
+    "fleet-notes/git/20250520102603-Git push.md",
+    "fleet-notes/git/20250520101638-Git Commit.md",
+    "fleet-notes/git/20250520102551-git add . .md",
+    "fleet-notes/git/20250520100513-Update the gitignore.md",
+    "fleet-notes/git/20250520100900-Git branch.md",
     "fleet-notes/Knative/20250514143813-Install Knative On GKE.md",
-    "fleet-notes/go/20250515165803-Set the Mod Proxy.md",
-    "bookmarks/meteatamel-knative-tutorial A collection of samples for Knative Serving, Knative Eventing and Knative-GCP projects..md",
-    "source-notes/20250513164136-Deploy the Knative on GKE.md",
-    "bookmarks/Home - Knative.md",
-    "fleet-notes/Sahara Serverless/20250513111010-Knative Hands-on Guide.md",
-    "fleet-notes/go/20250513181256-Go Sample.md",
-    "source-notes/20250515111306-K8s External Name Service.md",
-    "Excalidraw/Drawing 2025-05-15 11.10.34.excalidraw.md",
-    "fleet-notes/Sahara Serverless/20250507164805-Google Cloud Run.md",
-    "fleet-notes/Sahara Serverless/20250509181345-Infrastructure for Sahafa AI Application Technology Design Document.md",
-    "fleet-notes/Sahara Serverless/20250511094152-Serverless and FaaS.md",
+    "fleet-notes/git",
+    "Note Dashboard.md",
+    "Pasted Image 20250518233457_936.png",
+    "fleet-notes/shell",
+    "fleet-notes/Kubernetes/20250515174206-docker build --platform linux",
     "fleet-notes/cli",
     "fleet-notes/Knative",
     "fleet-notes/GKE",
     "fleet-notes/docker",
     "fleet-notes/Kubernetes",
     "fleet-notes/go",
-    "mindmaps/Serverless Platform.xmind",
-    "mindmaps",
-    "ai-prompts",
     "Untitled.canvas"
   ]
 }

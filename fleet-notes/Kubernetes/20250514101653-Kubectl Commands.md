@@ -6,7 +6,7 @@
 url: 
 tags:
   - fleet-note
-  - kubenete/kubectl
+  - kubernetes/kubectl
 "processed:": false
 "archived:": false
 ---
@@ -31,6 +31,14 @@ kubectl scale deployment hello-deployment --replicas=1
 ```shell
 # Get and filter the CRDs.
 kubectl get crd | grep 'knative'
+```
+
+
+## Account service
+
+```shell
+# Get the token for test.
+kubectl -n user-ronghzhang create token ronghzhang-sa
 ```
 
 # Reference
