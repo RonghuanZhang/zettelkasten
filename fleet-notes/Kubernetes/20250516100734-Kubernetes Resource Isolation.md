@@ -182,5 +182,6 @@ Kubernetes 通过 Namespace 将 API 资源逻辑隔离，每个 Namespace 内的
 
 # Reference
 * [Best practices for GKE RBAC  \|  Google Kubernetes Engine (GKE)  \|  Google Cloud](https://cloud.google.com/kubernetes-engine/docs/best-practices/rbac)
+* [Authenticating \| Kubernetes](https://kubernetes.io/docs/reference/access-authn-authz/authentication/#user-impersonation)
 * [[20250516100014-Kubernetes Service Account]]
 * [[20250516140450-K8s service account 资源隔离]]

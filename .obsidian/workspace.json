@@ -4,93 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "98f451300616b367",
+        "id": "77543bea0554a294",
         "type": "tabs",
         "children": [
           {
-            "id": "145700d6cb2fcdf6",
+            "id": "ce13bbdefaa8b972",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily-log/2025-05-20.md",
+                "file": "project-notes/serverless-platform/20250521132739-Hive Technology Design Doc.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-05-20"
+              "title": "20250521132739-Hive Technology Design Doc"
             }
           },
           {
-            "id": "991091bd77bc7ae6",
+            "id": "893d8e305eaddb67",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fleet-notes/Knative/20250519150714-Knative Custom Domain Pattern.md",
+                "file": "fleet-notes/Knative/20250518104215-Knative Pod.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20250519150714-Knative Custom Domain Pattern"
-            }
-          },
-          {
-            "id": "805128308e94ca8e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily-log/2025-05-20.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-05-20"
-            }
-          },
-          {
-            "id": "d7cf23f23958afb0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "fleet-notes/Knative/20250520163533-HTTP API of Knative.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20250520163533-HTTP API of Knative"
-            }
-          },
-          {
-            "id": "891542dbc6c8bdaa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "source-notes/20250520164209-Kubernets HTTP API.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20250520164209-Kubernets HTTP API"
-            }
-          },
-          {
-            "id": "57088c91b40f0ad4",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-05-20 14.42.35.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-05-20 14.42.35.excalidraw"
+              "title": "20250518104215-Knative Pod"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:kubernetes",
+                "query": "流量",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -147,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 451.5
+    "width": 478.5
   },
   "right": {
     "id": "16784bdaedee3bd7",
@@ -211,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2025-05-20 14.42.35.excalidraw.md",
+                "file": "project-notes/serverless-platform/20250521132739-Hive Technology Design Doc.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Drawing 2025-05-20 14.42.35.excalidraw"
+              "title": "Outline of 20250521132739-Hive Technology Design Doc"
             }
           },
           {
@@ -254,34 +199,36 @@
   },
   "active": "49154bb6c053b782",
   "lastOpenFiles": [
-    "fleet-notes/Knative/20250520163533-HTTP API of Knative.md",
-    "source-notes/20250520164209-Kubernets HTTP API.md",
-    "source-notes/20250520164827-Kubernets Resource Group and Version.md",
-    "fleet-notes/Kubernetes/20250516100734-Kubernetes Resource Isolation.md",
-    "fleet-notes/Kubernetes/20250516100014-Kubernetes Service Account.md",
-    "Excalidraw/Drawing 2025-05-20 14.42.35.excalidraw.md",
-    "bookmarks/深入剖析 Kubernetes__Rye_的博客-CSDN博客.md",
-    "daily-log/2025-05-20.md",
-    "fleet-notes/Knative/20250516144300-Knative Resource Isolation Solution.md",
-    "source-notes/20250516140450-K8s service account 资源隔离.md",
-    "fleet-notes/Knative/20250514165925-Deploy the Knative Service.md",
-    "fleet-notes/GKE/20250514110638-GKE Deploy the service.md",
-    "fleet-notes/GKE/20250514101033-GKE Access the Cluster By Kubectl.md",
+    "Excalidraw/Hive Control and Request Flow.excalidraw.md",
+    "source-notes/20250519094943-Knative Routing Principle.md",
+    "Excalidraw/Hive Technology Architecture.excalidraw.md",
+    "fleet-notes/Knative/20250518104215-Knative Pod.md",
     "source-notes/20250520152208-【k8s开发必备技能】使用client-go包访问Kubernetes CRD-腾讯云开发者社区-腾讯云.md",
+    "source-notes/20250520164827-Kubernets Resource Group and Version.md",
+    "fleet-notes/Knative/20250520163533-HTTP API of Knative.md",
     "fleet-notes/Knative/20250519150714-Knative Custom Domain Pattern.md",
-    "fleet-notes/vercel/20250520140213-Deploy the hexo blogs in vercel.md",
-    "fleet-notes/vercel",
-    "sops/Daily SOP.md",
-    "fleet-notes/git/20250520104631-Sync upstream with origin.md",
-    "fleet-notes/git/20250520103855-Git remote repo.md",
-    "fleet-notes/git/20250520102603-Git push.md",
-    "fleet-notes/git/20250520101638-Git Commit.md",
-    "fleet-notes/git/20250520102551-git add . .md",
-    "fleet-notes/git/20250520100513-Update the gitignore.md",
-    "fleet-notes/git/20250520100900-Git branch.md",
-    "fleet-notes/Knative/20250514143813-Install Knative On GKE.md",
-    "fleet-notes/git",
+    "Excalidraw/Hive Event Storming.excalidraw.md",
+    "project-notes/serverless-platform/20250521132739-Hive Technology Design Doc.md",
+    "templates/technology-design-template.md",
     "Note Dashboard.md",
+    "daily-log/2025-05-21.md",
+    "Excalidraw/Event Storming Template.excalidraw.md",
+    "Excalidraw/Hive Architecture.excalidraw.md",
+    "Excalidraw/Sahara AI Infrastructure Knative Solution Architecture.md",
+    "Excalidraw/Sahara AI Infrastructure Architecture.md",
+    "project-notes/serverless-platform/20250521113715-Hive technology Design Document.md",
+    "project-notes/serverless-platform/20250521113456-ceshi.md",
+    "project-notes/serverless-platform",
+    "fleet-notes/Sahara Serverless/20250521101738-Hive Technology Design Doc.md",
+    "templates/source-note-template.md",
+    "templates/fleet-note-template.md",
+    "source-notes/20250521103238-Technology Design Document.md",
+    "fleet-notes/Kubernetes/20250516100734-Kubernetes Resource Isolation.md",
+    "fleet-notes/Sahara Serverless/20250509181345-Infrastructure for Sahafa AI Application Technology Design Document.md",
+    "fleet-notes/English/20250521080430-音标.md",
+    "fleet-notes/English",
+    "fleet-notes/vercel",
+    "fleet-notes/git",
     "Pasted Image 20250518233457_936.png",
     "fleet-notes/shell",
     "fleet-notes/Kubernetes/20250515174206-docker build --platform linux",
@@ -289,8 +236,6 @@
     "fleet-notes/Knative",
     "fleet-notes/GKE",
     "fleet-notes/docker",
-    "fleet-notes/Kubernetes",
-    "fleet-notes/go",
     "Untitled.canvas"
   ]
 }
