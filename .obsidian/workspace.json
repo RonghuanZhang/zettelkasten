@@ -4,33 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3057efec6e7e2396",
+        "id": "5fbca78167cb4f5a",
         "type": "tabs",
         "children": [
           {
-            "id": "1d557c755db57c70",
+            "id": "5ee03767504db517",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fleet-notes/Kubernetes/20250514101653-Kubectl Commands.md",
+                "file": "fleet-notes/git/20250507140406-配置 Git 多用户.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20250514101653-Kubectl Commands"
-            }
-          },
-          {
-            "id": "cf62f9c2fbfdbb55",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Hive Event Storming.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Hive Event Storming.excalidraw"
+              "title": "20250507140406-配置 Git 多用户"
             }
           }
         ]
@@ -154,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fleet-notes/Kubernetes/20250514101653-Kubectl Commands.md",
+                "file": "fleet-notes/git/20250507140406-配置 Git 多用户.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 20250514101653-Kubectl Commands"
+              "title": "Outline of 20250507140406-配置 Git 多用户"
             }
           },
           {
@@ -195,8 +183,9 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "49154bb6c053b782",
+  "active": "5ee03767504db517",
   "lastOpenFiles": [
+    "fleet-notes/Kubernetes/20250514101653-Kubectl Commands.md",
     "daily-log/2025-05-23.md",
     "project-notes/serverless-platform/20250521132739-Hive Technology Design Doc.md",
     "Excalidraw/Hive Event Storming.excalidraw.md",
@@ -224,7 +213,6 @@
     "templates/technology-design-template.md",
     "fleet-notes/Sahara Serverless/20250513111010-Knative Hands-on Guide.md",
     "fleet-notes/Sahara Serverless/20250519170150-Knative Service CLI Demo.md",
-    "source-notes/20250521103238-Technology Design Document.md",
     "project-notes/serverless-platform",
     "fleet-notes/English",
     "fleet-notes/vercel",
