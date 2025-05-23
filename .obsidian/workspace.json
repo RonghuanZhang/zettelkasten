@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "project-notes/serverless-platform/20250521132739-Hive Technology Design Doc.md",
+                "file": "daily-log/2025-05-23.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20250521132739-Hive Technology Design Doc"
+              "title": "2025-05-23"
             }
           },
           {
@@ -192,13 +192,14 @@
       "command-palette:Open command palette": false,
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:New drawing": false,
+      "card-board:CardBoard": false,
       "homepage:Open homepage": false,
-      "obsidian-git:Open Git source control": false,
-      "card-board:CardBoard": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "49154bb6c053b782",
+  "active": "ce13bbdefaa8b972",
   "lastOpenFiles": [
+    "daily-log/2025-05-23.md",
     "Excalidraw/Hive Control and Request Flow.excalidraw.md",
     "source-notes/20250519094943-Knative Routing Principle.md",
     "Excalidraw/Hive Technology Architecture.excalidraw.md",
@@ -225,7 +226,6 @@
     "source-notes/20250521103238-Technology Design Document.md",
     "fleet-notes/Kubernetes/20250516100734-Kubernetes Resource Isolation.md",
     "fleet-notes/Sahara Serverless/20250509181345-Infrastructure for Sahafa AI Application Technology Design Document.md",
-    "fleet-notes/English/20250521080430-音标.md",
     "fleet-notes/English",
     "fleet-notes/vercel",
     "fleet-notes/git",
