@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "77543bea0554a294",
+        "id": "3057efec6e7e2396",
         "type": "tabs",
         "children": [
           {
-            "id": "ce13bbdefaa8b972",
+            "id": "1d557c755db57c70",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,17 +22,15 @@
             }
           },
           {
-            "id": "893d8e305eaddb67",
+            "id": "cf62f9c2fbfdbb55",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "fleet-notes/Knative/20250518104215-Knative Pod.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Hive Event Storming.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "20250518104215-Knative Pod"
+              "icon": "excalidraw-icon",
+              "title": "Hive Event Storming.excalidraw"
             }
           }
         ]
@@ -67,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "流量",
+                "query": "config set",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 478.5
+    "width": 426.5
   },
   "right": {
     "id": "16784bdaedee3bd7",
@@ -108,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source-notes/20250513173224-How to run gcloud command line using a service account.md",
+                "file": "project-notes/serverless-platform/20250521132739-Hive Technology Design Doc.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +116,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 20250513173224-How to run gcloud command line using a service account"
+              "title": "Backlinks for 20250521132739-Hive Technology Design Doc"
             }
           },
           {
@@ -127,12 +125,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source-notes/20250513173224-How to run gcloud command line using a service account.md",
+                "file": "project-notes/serverless-platform/20250521132739-Hive Technology Design Doc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 20250513173224-How to run gcloud command line using a service account"
+              "title": "Outgoing links from 20250521132739-Hive Technology Design Doc"
             }
           },
           {
@@ -156,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "project-notes/serverless-platform/20250521132739-Hive Technology Design Doc.md",
+                "file": "fleet-notes/Kubernetes/20250514101653-Kubectl Commands.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 20250521132739-Hive Technology Design Doc"
+              "title": "Outline of 20250514101653-Kubectl Commands"
             }
           },
           {
@@ -180,7 +178,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 320.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,32 +198,37 @@
   "active": "ce13bbdefaa8b972",
   "lastOpenFiles": [
     "daily-log/2025-05-23.md",
-    "Excalidraw/Hive Control and Request Flow.excalidraw.md",
-    "source-notes/20250519094943-Knative Routing Principle.md",
-    "Excalidraw/Hive Technology Architecture.excalidraw.md",
-    "fleet-notes/Knative/20250518104215-Knative Pod.md",
-    "source-notes/20250520152208-【k8s开发必备技能】使用client-go包访问Kubernetes CRD-腾讯云开发者社区-腾讯云.md",
-    "source-notes/20250520164827-Kubernets Resource Group and Version.md",
-    "fleet-notes/Knative/20250520163533-HTTP API of Knative.md",
-    "fleet-notes/Knative/20250519150714-Knative Custom Domain Pattern.md",
-    "Excalidraw/Hive Event Storming.excalidraw.md",
     "project-notes/serverless-platform/20250521132739-Hive Technology Design Doc.md",
-    "templates/technology-design-template.md",
+    "Excalidraw/Hive Event Storming.excalidraw.md",
+    "Excalidraw/Hive Control and Request Flow.excalidraw.md",
+    "Excalidraw/Hive Technology Architecture.excalidraw.md",
+    "Excalidraw/Hive Resource Isolation.excalidraw.md",
     "Note Dashboard.md",
-    "daily-log/2025-05-21.md",
-    "Excalidraw/Event Storming Template.excalidraw.md",
-    "Excalidraw/Hive Architecture.excalidraw.md",
-    "Excalidraw/Sahara AI Infrastructure Knative Solution Architecture.md",
-    "Excalidraw/Sahara AI Infrastructure Architecture.md",
-    "project-notes/serverless-platform/20250521113715-Hive technology Design Document.md",
-    "project-notes/serverless-platform/20250521113456-ceshi.md",
-    "project-notes/serverless-platform",
     "fleet-notes/Sahara Serverless/20250521101738-Hive Technology Design Doc.md",
-    "templates/source-note-template.md",
-    "templates/fleet-note-template.md",
+    "bookmarks/kamranahmedsedeveloper-roadmap Interactive roadmaps, guides and other educational content to help developers grow in their careers..md",
+    "fleet-notes/git/20250507140406-配置 Git 多用户.md",
+    "source-notes/20250523074726-kamranahmedsedeveloper-roadmap Interactive roadmaps, guides and other educational content to help developers grow in their careers..md",
+    "fleet-notes/git/20250507115921-Git Repo not found 解决方案.md",
+    "fleet-notes/git/20250520104631-Sync upstream with origin.md",
+    "iShot_2025-05-19_16.36.39.mp4",
+    "fleet-notes/git/20250520103855-Git remote repo.md",
+    "fleet-notes/git/20250520102603-Git push.md",
+    "fleet-notes/git/20250520101638-Git Commit.md",
+    "fleet-notes/git/20250520100900-Git branch.md",
+    "fleet-notes/git/20250520100513-Update the gitignore.md",
+    "daily-log/2025-05-22.md",
+    "Untitled.canvas",
+    "source-notes/20250522110212-Best Practices for Kubernetes Namespaces.md",
+    "sops/Search Infomation SOP.md",
+    "sops/Bookmark SOP.md",
+    "templates/technology-design-template.md",
+    "fleet-notes/Sahara Serverless/20250513111010-Knative Hands-on Guide.md",
+    "fleet-notes/Sahara Serverless/20250519170150-Knative Service CLI Demo.md",
     "source-notes/20250521103238-Technology Design Document.md",
     "fleet-notes/Kubernetes/20250516100734-Kubernetes Resource Isolation.md",
     "fleet-notes/Sahara Serverless/20250509181345-Infrastructure for Sahafa AI Application Technology Design Document.md",
+    "fleet-notes/go/20250515165803-Set the Mod Proxy.md",
+    "project-notes/serverless-platform",
     "fleet-notes/English",
     "fleet-notes/vercel",
     "fleet-notes/git",
@@ -234,8 +237,6 @@
     "fleet-notes/Kubernetes/20250515174206-docker build --platform linux",
     "fleet-notes/cli",
     "fleet-notes/Knative",
-    "fleet-notes/GKE",
-    "fleet-notes/docker",
-    "Untitled.canvas"
+    "fleet-notes/GKE"
   ]
 }
