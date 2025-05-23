@@ -107,3 +107,4 @@ tags:
 > 2. Proposed mitigations or fallback plans
 
 # 14 Reference
+* [[20250509144358-Serverless OpenFaaS And Alternatives Research]]
