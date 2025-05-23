@@ -41,4 +41,15 @@ kubectl get crd | grep 'knative'
 kubectl -n user-ronghzhang create token ronghzhang-sa
 ```
 
+
+# Cluster & Context
+
+```shell
+# Get the contexts
+kubectl config get-contexts
+
+# Swich the context
+kubectl config use-context <context>
+```
+
 # Reference

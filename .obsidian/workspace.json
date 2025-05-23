@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "project-notes/serverless-platform/20250521132739-Hive Technology Design Doc.md",
+                "file": "fleet-notes/Kubernetes/20250514101653-Kubectl Commands.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20250521132739-Hive Technology Design Doc"
+              "title": "20250514101653-Kubectl Commands"
             }
           },
           {
@@ -154,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "project-notes/serverless-platform/20250521132739-Hive Technology Design Doc.md",
+                "file": "fleet-notes/Kubernetes/20250514101653-Kubectl Commands.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 20250521132739-Hive Technology Design Doc"
+              "title": "Outline of 20250514101653-Kubectl Commands"
             }
           },
           {
@@ -195,10 +195,10 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "1d557c755db57c70",
+  "active": "49154bb6c053b782",
   "lastOpenFiles": [
-    "Excalidraw/Hive Event Storming.excalidraw.md",
     "project-notes/serverless-platform/20250521132739-Hive Technology Design Doc.md",
+    "Excalidraw/Hive Event Storming.excalidraw.md",
     "Excalidraw/Hive Control and Request Flow.excalidraw.md",
     "Excalidraw/Hive Technology Architecture.excalidraw.md",
     "Excalidraw/Hive Resource Isolation.excalidraw.md",
