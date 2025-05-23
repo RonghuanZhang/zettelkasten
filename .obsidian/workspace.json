@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily-log/2025-05-23.md",
+                "file": "fleet-notes/Kubernetes/20250514101653-Kubectl Commands.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-05-23"
+              "title": "20250514101653-Kubectl Commands"
             }
           },
           {
@@ -190,12 +190,12 @@
       "command-palette:Open command palette": false,
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "card-board:CardBoard": false,
       "homepage:Open homepage": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "card-board:CardBoard": false
     }
   },
-  "active": "ce13bbdefaa8b972",
+  "active": "49154bb6c053b782",
   "lastOpenFiles": [
     "daily-log/2025-05-23.md",
     "project-notes/serverless-platform/20250521132739-Hive Technology Design Doc.md",
@@ -225,9 +225,6 @@
     "fleet-notes/Sahara Serverless/20250513111010-Knative Hands-on Guide.md",
     "fleet-notes/Sahara Serverless/20250519170150-Knative Service CLI Demo.md",
     "source-notes/20250521103238-Technology Design Document.md",
-    "fleet-notes/Kubernetes/20250516100734-Kubernetes Resource Isolation.md",
-    "fleet-notes/Sahara Serverless/20250509181345-Infrastructure for Sahafa AI Application Technology Design Document.md",
-    "fleet-notes/go/20250515165803-Set the Mod Proxy.md",
     "project-notes/serverless-platform",
     "fleet-notes/English",
     "fleet-notes/vercel",
