@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fleet-notes/git/20250507140406-配置 Git 多用户.md",
+                "file": "project-notes/serverless-platform/20250521132739-Hive Technology Design Doc.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20250507140406-配置 Git 多用户"
+              "title": "20250521132739-Hive Technology Design Doc"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "config set",
+                "query": "gcloud",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fleet-notes/git/20250507140406-配置 Git 多用户.md",
+                "file": "project-notes/serverless-platform/20250521132739-Hive Technology Design Doc.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 20250507140406-配置 Git 多用户"
+              "title": "Outline of 20250521132739-Hive Technology Design Doc"
             }
           },
           {
@@ -183,9 +183,26 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "5ee03767504db517",
+  "active": "49154bb6c053b782",
   "lastOpenFiles": [
     "fleet-notes/Kubernetes/20250514101653-Kubectl Commands.md",
+    "fleet-notes/GKE/20250514101033-GKE Access the Cluster By Kubectl.md",
+    "fleet-notes/GKE/20250513145138-GKE Push the image manually.md",
+    "fleet-notes/Knative/20250515171302-Knative CLI connect to the k8s cluster.md",
+    "fleet-notes/Knative/20250515133746-Knative Configure A Custom Domain.md",
+    "fleet-notes/Knative/20250515105957-Knative Serving.md",
+    "fleet-notes/Knative/20250515170228-Knative CLI Install.md",
+    "fleet-notes/Knative/20250514143813-Install Knative On GKE.md",
+    "fleet-notes/20250506214553-Google Cloud CLI 使用.md",
+    "source-notes/20250506220541-Cloud SDK - Libraries and Command Line Tools.md",
+    "source-notes/20250507095919-什么是 Google Cloud CLI？.md",
+    "fleet-notes/Sahara Serverless/20250508095620-GCP Java SDK.md",
+    "source-notes/20250513164136-Deploy the Knative on GKE.md",
+    "source-notes/20250513173224-How to run gcloud command line using a service account.md",
+    "fleet-notes/Sahara Serverless/20250519170150-Knative Service CLI Demo.md",
+    "fleet-notes/Knative/20250520163533-HTTP API of Knative.md",
+    "fleet-notes/git/20250507140406-配置 Git 多用户.md",
+    "fleet-notes/git/20250507115921-Git Repo not found 解决方案.md",
     "daily-log/2025-05-23.md",
     "project-notes/serverless-platform/20250521132739-Hive Technology Design Doc.md",
     "Excalidraw/Hive Event Storming.excalidraw.md",
@@ -194,25 +211,8 @@
     "Excalidraw/Hive Resource Isolation.excalidraw.md",
     "Note Dashboard.md",
     "fleet-notes/Sahara Serverless/20250521101738-Hive Technology Design Doc.md",
-    "bookmarks/kamranahmedsedeveloper-roadmap Interactive roadmaps, guides and other educational content to help developers grow in their careers..md",
-    "fleet-notes/git/20250507140406-配置 Git 多用户.md",
-    "source-notes/20250523074726-kamranahmedsedeveloper-roadmap Interactive roadmaps, guides and other educational content to help developers grow in their careers..md",
-    "fleet-notes/git/20250507115921-Git Repo not found 解决方案.md",
-    "fleet-notes/git/20250520104631-Sync upstream with origin.md",
     "iShot_2025-05-19_16.36.39.mp4",
-    "fleet-notes/git/20250520103855-Git remote repo.md",
-    "fleet-notes/git/20250520102603-Git push.md",
-    "fleet-notes/git/20250520101638-Git Commit.md",
-    "fleet-notes/git/20250520100900-Git branch.md",
-    "fleet-notes/git/20250520100513-Update the gitignore.md",
-    "daily-log/2025-05-22.md",
     "Untitled.canvas",
-    "source-notes/20250522110212-Best Practices for Kubernetes Namespaces.md",
-    "sops/Search Infomation SOP.md",
-    "sops/Bookmark SOP.md",
-    "templates/technology-design-template.md",
-    "fleet-notes/Sahara Serverless/20250513111010-Knative Hands-on Guide.md",
-    "fleet-notes/Sahara Serverless/20250519170150-Knative Service CLI Demo.md",
     "project-notes/serverless-platform",
     "fleet-notes/English",
     "fleet-notes/vercel",
