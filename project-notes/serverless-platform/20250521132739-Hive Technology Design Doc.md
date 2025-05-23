@@ -57,6 +57,12 @@ Features：
 # 6 Requirements Overview
 
 ## 6.1 Functional Requirements
+* As a user, I want to apply a token by providing my user id, So that I can get the access to use the Hive CLI to deploy my application.
+* As a user, I want to create a new application by providing its name and type, So that the system can initialize the application.
+* As a user, I want to configure the application's source provider using an image, So that the system knows what to deploy.
+* As a user, I want to configure the application's deployment, including enviroment variables and secrets, So that the application can be deployed with the required settings.
+* As a user, I want to deploy the configured application, So that I can get the public endpoint to access it externally.
+* As a user, I want to view the application details, So that I can see its name, type, source provider info, deployment info, public endpoint and the alived replicas.
 
 ## 6.2 Non-functional Requirements
 
@@ -80,27 +86,60 @@ Features：
 
 [[Hive Control and Request Flow.excalidraw]]
 
-## 7.2 Module Break-down
+## 7.2 Module Breakdown
 
-| Module                | Technology Stack                          | Remark                                                 |
-| --------------------- | ----------------------------------------- | ------------------------------------------------------ |
-| API Gateway           |                                           | What is the current gateway in use? Can I reuse it?    |
-| Application           | Java + Spring Boot + MyBatis Plus + MySQL | What's the current version in use?                     |
-| Knative Orchestration | Golang                                    | Golang is better suited for cloud-native development.  |
-| Knative Gateway       | Kourier                                   | The Kourier is enough for now. The Istio is too heavy. |
-| Knative               | 1. Serving<br>2. Network                  | Pluggable components-based installation                |
-| Kubernets             | GKE                                       |                                                        |
+| Module                     | Technology Stack                          | Remark                                                 |
+| -------------------------- | ----------------------------------------- | ------------------------------------------------------ |
+| Hive API Gateway           | Spring Cloud Gateway                      |                                                        |
+| Hive Application           | Java + Spring Boot + MyBatis Plus + MySQL | JDK 21<br>Spring Boot 3.4.0<br>MySQL 8.0               |
+| Hive Knative Orchestration | Golang                                    | Golang is better suited for cloud-native development.  |
+| Hive Knative Gateway       | Kourier                                   | The Kourier is enough for now. The Istio is too heavy. |
+| Hive Knative               | 1. Serving<br>2. Network                  | Pluggable components-based installation                |
+| Kubernets                  | GKE                                       |                                                        |
+
 ## 7.3 Domain Model
 
 # 8 Module Design
 
-## 8.1 XXX Module
+## 8.1 Hive API Gateway Module
 
 ### 8.1.1 Responsibility
 
-### 8.1.2 Class Diagram
+### 8.1.2 Sequence Diagram
 
-### 8.1.3 Sequence Diagram
+### 8.1.3 Key Configuration
+
+## 8.2 Hive Application Module
+
+### 8.2.1 Responsibility
+
+### 8.2.2 Domain Diagram
+
+### 8.2.3 Sequence Diagram
+
+## 8.3 Hive Knative Orchestration Module
+
+### 8.3.1 Responsibility
+
+### 8.3.2 Domain Diagram
+
+### 8.3.3 Sequence Diagram
+
+## 8.4 Hive Knative Gateway Module
+
+### 8.4.1 Responsibility
+
+### 8.4.2 Sequence Diagram
+
+### 8.4.3 Key Configuration
+
+## 8.5 Hive Knative
+
+### 8.5.1 Responsibility
+
+### 8.5.2 Domain Diagram
+
+### 8.5.3 Sequence Diagram
 
 # 9 Data Design
 
@@ -108,6 +147,10 @@ Features：
 > Entity definitions
 > Important fields and constraints
 > ER diagram
+
+## 9.1 user_white_list
+
+## 9.2 application
 
 # 10 API Design
 
@@ -135,7 +178,11 @@ Features：
 > 3. Sensitive data protection
 > 4. Access control and auditing
 
-## 13.1 Resource Isolation
+## 13.1 User Applied and Auth
+
+The user received an auth token from the Hive administrator and is required to use it to access the Hive CLI.
+
+## 13.2 Resource Isolation
 
 [[Hive Resource Isolation.excalidraw]]
 
