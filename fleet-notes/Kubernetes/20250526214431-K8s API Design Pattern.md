@@ -1,11 +1,12 @@
 ---
 "type:": fleet-note
 "title:": 20250526214431-K8s API Design Pattern
-id:: 20250526214439  # 唯一 ID，基于创建时间确保全局唯一
-created:: 2025-05-26T21:44:39  # 创建时间（ISO 格式）
+"id:": 20250526214439
+"created:": 2025-05-26T21:44:39
 url: 
 tags:
   - fleet-note
+  - kubernetes/restful-api
 "processed:": false
 "archived:": false
 ---
@@ -21,3 +22,4 @@ API格式为:
 * v1beta1，功能基本可用，希望用户尝试并提供反馈
 # Reference
 * [2.3 Kubernetes API \| 《Kubernetes设计与实现》](https://renhongcai.gitbook.io/kubernetes/di-er-zhang-kubernetes-ji-chu/2.3-kubernetes_api)
+* [The Kubernetes API \| Kubernetes](https://kubernetes.io/docs/concepts/overview/kubernetes-api/)
