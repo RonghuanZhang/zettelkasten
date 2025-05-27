@@ -129,6 +129,8 @@ Features：
 
 ### 8.4.1 Responsibility
 
+
+
 ### 8.4.2 Domain Diagram
 
 ### 8.4.3 Sequence Diagram
