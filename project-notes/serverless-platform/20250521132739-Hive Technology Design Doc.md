@@ -101,7 +101,7 @@ Features：
 
 # 8 Module Design
 
-## 8.1 Hive API Gateway Module
+## 8.1 Hive Client Module
 
 ### 8.1.1 Responsibility
 
@@ -109,15 +109,15 @@ Features：
 
 ### 8.1.3 Key Configuration
 
-## 8.2 Hive Application Module
+## 8.2 Hive API Gateway Module
 
 ### 8.2.1 Responsibility
 
-### 8.2.2 Domain Diagram
+### 8.2.2 Sequence Diagram
 
-### 8.2.3 Sequence Diagram
+### 8.2.3 Key Configuration
 
-## 8.3 Hive Knative Orchestration Module
+## 8.3 Hive Application Module
 
 ### 8.3.1 Responsibility
 
@@ -125,21 +125,29 @@ Features：
 
 ### 8.3.3 Sequence Diagram
 
-## 8.4 Hive Knative Gateway Module
+## 8.4 Hive Knative Orchestration Module
 
 ### 8.4.1 Responsibility
 
-### 8.4.2 Sequence Diagram
+### 8.4.2 Domain Diagram
 
-### 8.4.3 Key Configuration
+### 8.4.3 Sequence Diagram
 
-## 8.5 Hive Knative
+## 8.5 Hive Knative Gateway Module
 
 ### 8.5.1 Responsibility
 
-### 8.5.2 Domain Diagram
+### 8.5.2 Sequence Diagram
 
-### 8.5.3 Sequence Diagram
+### 8.5.3 Key Configuration
+
+## 8.6 Hive Knative
+
+### 8.6.1 Responsibility
+
+### 8.6.2 Domain Diagram
+
+### 8.6.3 Sequence Diagram
 
 # 9 Data Design
 
