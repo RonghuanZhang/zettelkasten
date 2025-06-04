@@ -52,4 +52,21 @@ kubectl config get-contexts
 kubectl config use-context <context>
 ```
 
+# RBAC
+
+```shell
+kubectl auth can-i create services.serving.knative.dev -n ronghzhang3 --as=ronghzhang3
+```
+
+```shell
+kubectl create rolebinding "${SA}-${ROLE}" \  
+--role=${ROLE} \  
+--serviceaccount="${NAMESPACE}:${SA}" \  
+-n "${NAMESPACE}"
+
+kubectl create rolebinding ronghzhang3-knative-serving-admin \
+--role=knative-serving-admin \
+--serviceaccount=ronghzhang3:ronghzhang3 \
+-n ronghzhang3
+```
 # Reference
