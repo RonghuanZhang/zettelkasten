@@ -27,7 +27,7 @@ subjects:
   namespace: user-ronghzhang
 roleRef:
   apiGroup: rbac.authorization.k8s.io
-  kind: Role
+  kind: ClusterRole
   name: knative-serving-core
 ```
 
