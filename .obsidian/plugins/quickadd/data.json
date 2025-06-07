@@ -77,7 +77,7 @@
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
+        "chooseFromSubfolders": true
       },
       "appendLink": false,
       "openFileInNewTab": {
