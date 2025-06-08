@@ -50,6 +50,9 @@
     "TQ_show_tree": "checkbox",
     "TQ_show_urgency": "checkbox",
     "created": "datetime",
-    "title:": "text"
+    "title:": "text",
+    "related-notes": "multitext",
+    "related-context": "multitext",
+    "title: ": "text"
   }
 }
