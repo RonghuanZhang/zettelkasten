@@ -8,6 +8,8 @@ source:
 url: https://www.coursera.org/learn/cryptocurrency/home/module/1
 tags:
   - literature-note
+  - course
+  - web3
 "processed:": false
 related-notes: 
 "archived:": false
