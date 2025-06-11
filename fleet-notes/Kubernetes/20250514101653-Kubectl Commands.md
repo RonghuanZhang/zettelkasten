@@ -69,4 +69,22 @@ kubectl create rolebinding ronghzhang3-knative-serving-admin \
 --serviceaccount=ronghzhang3:ronghzhang3 \
 -n ronghzhang3
 ```
+
+
+# 日志
+
+```shell
+kubectl logs <pod-name> -c <container-name> -n <namespace>
+logs -f
+logs --tail
+```
+
+# 端口转发
+
+```shell
+kubectl port-forward service/hive-orchestration 8000:8080 -n hive
+
+本机端口:service端口
+```
+
 # Reference
