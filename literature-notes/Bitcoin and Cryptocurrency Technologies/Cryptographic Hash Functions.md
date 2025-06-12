@@ -13,7 +13,6 @@ related-notes:
 "archived:": false
 media: https://d3c33hcgiwev3.cloudfront.net/iNOvcz-GEeWNnhLBZy0LHQ.processed/full/720p/index.mp4?Expires=1749513600&Signature=MGyybYhGvyh5pOfbJRXJgzJxYBm-~T0GF~6WWMHXXWGm34sMF90X6Tj7iM1aLD~B8ZmyovJ7B-t8aROyZkCwC7cI-znlrPwyrPg5UN43Fmeu53BwgTq-U6yRBQ5gnhkTX4rD26YTRRuuPD4OA1grc5NfSNIfkHvg6B2ndOqv6wk_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 ---
-
 ## Cryptographic Functions Attributes 
 - [00:12](https://d3c33hcgiwev3.cloudfront.net/iNOvcz-GEeWNnhLBZy0LHQ.processed/full/720p/index.mp4?Expires=1749513600&Signature=MGyybYhGvyh5pOfbJRXJgzJxYBm-~T0GF~6WWMHXXWGm34sMF90X6Tj7iM1aLD~B8ZmyovJ7B-t8aROyZkCwC7cI-znlrPwyrPg5UN43Fmeu53BwgTq-U6yRBQ5gnhkTX4rD26YTRRuuPD4OA1grc5NfSNIfkHvg6B2ndOqv6wk_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A#t=12.68) 
 
@@ -26,3 +25,12 @@ The hash functions have three security properties.
 * collision-free
 * hiding
 * puzzle-friendly
+
+### Hash Property 1: Collision-free
+- [01:25](https://d3c33hcgiwev3.cloudfront.net/iNOvcz-GEeWNnhLBZy0LHQ.processed/full/720p/index.mp4?Expires=1749513600&Signature=MGyybYhGvyh5pOfbJRXJgzJxYBm-~T0GF~6WWMHXXWGm34sMF90X6Tj7iM1aLD~B8ZmyovJ7B-t8aROyZkCwC7cI-znlrPwyrPg5UN43Fmeu53BwgTq-U6yRBQ5gnhkTX4rD26YTRRuuPD4OA1grc5NfSNIfkHvg6B2ndOqv6wk_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A#t=01:25.77) 
+Nobody can find x and y such that `x != y`  and  `H(x) = H(y)`
+
+### Hash Property 2: Hiding
+
+Given `H(x)`, it is impossible to find `x`.
+
