@@ -22,7 +22,7 @@ tags:
 kn service list
 
 # Create the service
-kn service create rhz-greetings --port 9080 --image us-central1-docker.pkg.dev/hive-451307/sahara-ai-serverless-platform-repository-research/rhz-greetings-app:1.0.0 -n user-ronghzhang
+kn service create rhz-greetings --port 9080 --image us-central1-docker.pkg.dev/hive-451307/sahara-ai-serverless-platform-repository-research/rhz-greetings-app:1.0.0 -n guanghan
 
 # Delete the service
 kn service delete <service-name>

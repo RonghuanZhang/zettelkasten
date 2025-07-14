@@ -87,4 +87,29 @@ kubectl port-forward service/hive-orchestration 8000:8080 -n hive
 本机端口:service端口
 ```
 
+# 指定容器
+
+```shell
+kubectl logs hive-application-0 -c fix-permissions -n hive
+```
+
+# 删除卡住的资源
+
+```shell
+kubectl get pvc dumps-hive-application-0 -n hive -o json | jq .metadata.finalizers
+```
+
+```shell
+kubectl patch pvc dumps-hive-application-0 -n hive -p '{"metadata":{"finalizers":null}}' --type=merge
+
+```
+
+# 测试用端口转发
+
+```shell
+kubectl port-forward --namespace logging service/log-collector 8089:80
+
+本地访问8089端口即可
+```
+
 # Reference
