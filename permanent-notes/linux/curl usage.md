@@ -14,14 +14,18 @@ related-notes:
 
 ## 常用选项
 
-| 选项   | 含义                          | 长选项             |
-| ---- | --------------------------- | --------------- |
-| `-L` | 如果遇到重定向会继续跟随重定向进行请求         | `--location`    |
-| `-O` | 将服务器响应保存成文件，并用URL的最后部分作为文件名 | `--remote-name` |
-|      |                             |                 |
+| 选项          | 含义                                           | 长选项             |
+| ----------- | -------------------------------------------- | --------------- |
+| `-L`        | 如果遇到重定向会继续跟随重定向进行请求                          | `--location`    |
+| `-O`        | 将服务器响应保存成文件，并用URL的最后部分作为文件名                  | `--remote-name` |
+| `--resolve` | 绕过 DNS，demo：`--resolve <domain>:<port>:<ip>` |                 |
 
 
+## 绕过 DNS
 
+```shell
+curl -v ronghzhang-test-01.ronghzhang1.staging.hiverun.io/env/ENV1 --resolve ronghzhang-test-01.ronghzhang1.staging.hiverun.io:443:<ip>
+```
 
 # References
 * [curl](https://curl.se/)
