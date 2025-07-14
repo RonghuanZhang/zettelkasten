@@ -30,7 +30,22 @@ The hash functions have three security properties.
 - [01:25](https://d3c33hcgiwev3.cloudfront.net/iNOvcz-GEeWNnhLBZy0LHQ.processed/full/720p/index.mp4?Expires=1749513600&Signature=MGyybYhGvyh5pOfbJRXJgzJxYBm-~T0GF~6WWMHXXWGm34sMF90X6Tj7iM1aLD~B8ZmyovJ7B-t8aROyZkCwC7cI-znlrPwyrPg5UN43Fmeu53BwgTq-U6yRBQ5gnhkTX4rD26YTRRuuPD4OA1grc5NfSNIfkHvg6B2ndOqv6wk_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A#t=01:25.77) 
 Nobody can find x and y such that `x != y`  and  `H(x) = H(y)`
 
+If we know `H(x) = H(y)` it's safe to assume that `x = y`
+
 ### Hash Property 2: Hiding
 
 Given `H(x)`, it is impossible to find `x`.
+
+`commit(msg) := (H(key | msg), key)`, the key is a random 256-bit value.
+`verify(com, key, msg) := (H(key | msg) == com)`
+
+### Hash Property 3: Puzzle-friendly
+
+For every possible output value y，if k is chosen from a distribution with high min-entropy，then it is infeasible to find x such that `H(k|x) = y`.
+
+## SHA 256
+
+![image.png](https://images.hnzhrh.com/note/20250616215744530.png)
+
+
 
