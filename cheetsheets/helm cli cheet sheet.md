@@ -1,6 +1,6 @@
 ---
 "type:": cheet-sheet
-"title:": helm cli cheet sheet
+"title:": Helm CLI Cheet Sheet
 "id:": 20250717104942
 "created:": 2025-07-17T10:49:42
 url: 
