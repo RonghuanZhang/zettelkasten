@@ -464,4 +464,166 @@ spec:
 请告诉我下一步需求，我将继续协助你的 Function 平台多租户落地推进。
 
 
+
+
+# YAML
+
+```yaml
+
+apiVersion: tekton.dev/v1beta1
+kind: Task
+metadata:
+  name: git-clone-task
+spec:
+  params:
+    - name: url
+      type: string
+      description: The Git repository URL
+      default: ""
+    - name: revision
+      type: string
+      description: Git revision (branch, tag, SHA)
+      default: "main"
+  resources:
+    outputs:
+      - name: workspace
+        type: git
+  steps:
+    - name: clone
+      image: alpine/git
+      script: |
+        git clone --single-branch --branch $(params.revision) $(params.url) $(resources.outputs.workspace.path)
+---
+apiVersion: tekton.dev/v1beta1
+kind: Task
+metadata:
+  name: build-image-task
+spec:
+  params:
+    - name: image
+      type: string
+      description: Destination image (e.g. registry/user/app:tag)
+  resources:
+    inputs:
+      - name: workspace
+        type: git
+  steps:
+    - name: build
+      image: gcr.io/buildpacks/builder:v1
+      args:
+        - "/cnb/lifecycle/creator"
+        - "-image"
+        - "$(params.image)"
+        - "$(resources.inputs.workspace.path)"
+---
+apiVersion: tekton.dev/v1beta1
+kind: Task
+metadata:
+  name: deploy-knative-task
+spec:
+  params:
+    - name: service-name
+      type: string
+      description: Knative Service name
+    - name: image
+      type: string
+      description: Container image for service
+  steps:
+    - name: deploy
+      image: bitnami/kubectl:latest
+      script: |
+        kubectl apply -f - <<EOF
+        apiVersion: serving.knative.dev/v1
+        kind: Service
+        metadata:
+          name: $(params.service-name)
+        spec:
+          template:
+            spec:
+              containers:
+                - image: $(params.image)
+        EOF
+---
+apiVersion: tekton.dev/v1beta1
+kind: Pipeline
+metadata:
+  name: github-to-knative-pipeline
+spec:
+  params:
+    - name: git-url
+      type: string
+    - name: git-revision
+      type: string
+      default: "main"
+    - name: image-url
+      type: string
+    - name: knative-service-name
+      type: string
+  resources:
+    - name: git-repo
+      type: git
+  tasks:
+    - name: clone
+      taskRef:
+        name: git-clone-task
+      params:
+        - name: url
+          value: "$(params.git-url)"
+        - name: revision
+          value: "$(params.git-revision)"
+      resources:
+        outputs:
+          - name: workspace
+            resource: git-repo
+    - name: build-image
+      runAfter:
+        - clone
+      taskRef:
+        name: build-image-task
+      params:
+        - name: image
+          value: "$(params.image-url)"
+      resources:
+        inputs:
+          - name: workspace
+            resource: git-repo
+    - name: deploy-knative
+      runAfter:
+        - build-image
+      taskRef:
+        name: deploy-knative-task
+      params:
+        - name: service-name
+          value: "$(params.knative-service-name)"
+        - name: image
+          value: "$(params.image-url)"
+---
+apiVersion: tekton.dev/v1beta1
+kind: PipelineRun
+metadata:
+  name: github-to-knative-run
+spec:
+  pipelineRef:
+    name: github-to-knative-pipeline
+  params:
+    - name: git-url
+      value: "https://github.com/your-org/your-repo.git"
+    - name: git-revision
+      value: "main"
+    - name: image-url
+      value: "registry.example.com/your-app:latest"
+    - name: knative-service-name
+      value: "your-knative-service"
+  resources:
+    - name: git-repo
+      resourceSpec:
+        type: git
+        params:
+          - name: url
+            value: "https://github.com/your-org/your-repo.git"
+          - name: revision
+            value: "main"
+
+```
+
 # Reference
