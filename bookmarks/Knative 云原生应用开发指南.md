@@ -6,7 +6,7 @@ created: 2025-05-13T10:24:51
 tags:
   - bookmark
   - cloud-native/serverless/knative
-  - learning
+  - course
 classified: false
 ---
 [Knative 云原生应用开发指南](https://knative-sample.com/)
