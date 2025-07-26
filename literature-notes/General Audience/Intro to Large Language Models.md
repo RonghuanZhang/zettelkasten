@@ -22,3 +22,32 @@ media: https://www.youtube.com/watch?v=zjkBMFhNj_g&list=PLAqhIrjkxbuW9U8-vZ_s_cj
 
 
 ![image.png](https://images.hnzhrh.com/note/20250722081637907.png)
+
+
+![image.png](https://images.hnzhrh.com/note/20250722201508017.png)
+
+![image.png](https://images.hnzhrh.com/note/20250722202104530.png)
+
+![image.png](https://images.hnzhrh.com/note/20250722202952067.png)
+
+![image.png](https://images.hnzhrh.com/note/20250722205355217.png)
+
+
+
+![](https://images.hnzhrh.com/note/20250722210241929.png)
+
+
+
+
+![image.png](https://images.hnzhrh.com/note/20250722205935916.png)
+
+
+![image.png](https://images.hnzhrh.com/note/20250722210437110.png)
+
+
+![image.png](https://images.hnzhrh.com/note/20250722210448948.png)
+
+
+![image.png](https://images.hnzhrh.com/note/20250722210649367.png)
+
+![image.png](https://images.hnzhrh.com/note/20250722211136938.png)

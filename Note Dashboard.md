@@ -1,6 +1,4 @@
-	# Personal SOP
-
-![[Daily SOP]]
+![[Study SOP]]
 
 # Unprocessed Fleet Notes
 
@@ -21,3 +19,12 @@ WHERE type = "literature-note"
 SORT created ASC
 ```
 
+# Unprocessed Source Notes
+
+```dataview
+TABLE tags AS "Tags", created AS "创建时间"
+FROM ""
+WHERE type = "source-note"
+  AND processed = false
+SORT created ASC
+```
