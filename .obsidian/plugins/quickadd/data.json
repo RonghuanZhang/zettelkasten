@@ -237,6 +237,66 @@
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false
+    },
+    {
+      "id": "e7641fbe-1b91-4442-be75-76fc0b85fcce",
+      "name": "New SOP",
+      "type": "Template",
+      "command": true,
+      "templatePath": "templates/sop-template.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{DATE:YYYYMMDDHHmmss}}-{{name}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          ""
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": true
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "7012d642-7d3b-43d1-9e48-c294e954dda2",
+      "name": "New SOP Blank",
+      "type": "Template",
+      "command": true,
+      "templatePath": "templates/sop-blank-template.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{DATE:YYYYMMDDHHmmss}}-{{name}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          ""
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": true
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
     }
   ],
   "macros": [],

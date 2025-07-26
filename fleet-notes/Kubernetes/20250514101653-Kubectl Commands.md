@@ -7,6 +7,7 @@ url:
 tags:
   - fleet-note
   - kubernetes/kubectl
+  - cli
 "processed:": false
 "archived:": false
 ---
@@ -110,6 +111,12 @@ kubectl patch pvc dumps-hive-application-0 -n hive -p '{"metadata":{"finalizers"
 kubectl port-forward --namespace logging service/log-collector 8089:80
 
 本地访问8089端口即可
+```
+
+# 查看 POD 的 service account
+
+```shell
+kubectl get pod func-go-01-00001-deployment-55d6798fd6-cnjtl -n ronghuanz -o jsonpath='{.spec.serviceAccountName}'
 ```
 
 # Reference
