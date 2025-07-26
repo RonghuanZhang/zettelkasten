@@ -626,4 +626,75 @@ spec:
 
 ```
 
+
+
+## Knative Function 流程分析
+
+```shell
+ryan@Ryans-MacBook-Pro zettelkasten % kubectl describe pod volume-uploader-lxgsf -n ronghuanz
+Warning: Use tokens from the TokenRequest API or manually created secret-based tokens instead of auto-generated secret-based tokens.
+Name:             volume-uploader-lxgsf
+Namespace:        ronghuanz
+Priority:         0
+Service Account:  default
+Node:             gke-hive-staging-hive-staging-node-gr-e421b794-esg3/10.128.0.32
+Start Time:       Thu, 24 Jul 2025 12:59:33 +0800
+Labels:           <none>
+Annotations:      <none>
+Status:           Running
+IP:               10.60.4.14
+IPs:
+  IP:  10.60.4.14
+Containers:
+  volume-uploader-lxgsf:
+    Container ID:    containerd://9843429436d7d11ce795121bcb81de1d7f6aecbbc26eede3af373b5e1b949ff6
+    Image:           ghcr.io/knative/func-utils:v2
+    Image ID:        ghcr.io/knative/func-utils@sha256:d31457b9c8af6ac39de7e2377e041073cdb6a914763cae5ce7032c188bd61669
+    Port:            <none>
+    Host Port:       <none>
+    SeccompProfile:  RuntimeDefault
+    Command:
+      sh
+      -c
+      umask 0000 && exec tar -xmf -
+    State:          Running
+      Started:      Thu, 24 Jul 2025 12:59:42 +0800
+    Ready:          True
+    Restart Count:  0
+    Environment:    <none>
+    Mounts:
+      /tmp/volume_mnt from p-vol (rw)
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-kjvp6 (ro)
+Conditions:
+  Type                        Status
+  PodReadyToStartContainers   True 
+  Initialized                 True 
+  Ready                       True 
+  ContainersReady             True 
+  PodScheduled                True 
+Volumes:
+  p-vol:
+    Type:       PersistentVolumeClaim (a reference to a PersistentVolumeClaim in the same namespace)
+    ClaimName:  func-test-pack-upload-pipeline-pvc
+    ReadOnly:   false
+  kube-api-access-kjvp6:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    ConfigMapOptional:       <nil>
+    DownwardAPI:             true
+QoS Class:                   BestEffort
+Node-Selectors:              <none>
+Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type    Reason                  Age   From                     Message
+  ----    ------                  ----  ----                     -------
+  Normal  Scheduled               86s   default-scheduler        Successfully assigned ronghuanz/volume-uploader-lxgsf to gke-hive-staging-hive-staging-node-gr-e421b794-esg3
+  Normal  SuccessfulAttachVolume  79s   attachdetach-controller  AttachVolume.Attach succeeded for volume "pvc-5afd88bc-8347-42c0-bfb2-a826d7cfab36"
+  Normal  Pulled                  77s   kubelet                  Container image "ghcr.io/knative/func-utils:v2" already present on machine
+  Normal  Created                 77s   kubelet                  Created container: volume-uploader-lxgsf
+  Normal  Started                 77s   kubelet                  Started container volume-uploader-lxgsf
+```
+
 # Reference
