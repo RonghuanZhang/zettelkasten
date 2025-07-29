@@ -119,4 +119,11 @@ kubectl port-forward --namespace logging service/log-collector 8089:80
 kubectl get pod func-go-01-00001-deployment-55d6798fd6-cnjtl -n ronghuanz -o jsonpath='{.spec.serviceAccountName}'
 ```
 
+# 查看 POD 的所有 containers
+
+```shell
+kubectl get pod hive-func-test-01-pack-git-pipeline-run-lq7xw-build-pod   -n ronghuanz -o jsonpath='{.spec.containers[*].name}'
+
+```
+
 # Reference
