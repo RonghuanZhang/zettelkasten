@@ -4,7 +4,7 @@
 
 # Deep Learning
 
-- [ ] Distributed Protocols 🔺 🔁 every week on Saturday, Sunday 🛫 2025-07-26
+- [ ] Serverless Platform 🔺 🔁 every week on Saturday, Sunday 🛫 2025-07-26
 
 # Daily Learning
 
