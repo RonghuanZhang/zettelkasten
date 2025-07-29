@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiGithub",
       "FasBrain",
       "RiStickyNoteAddFill",
       "FasRuler",
-      "Fas0",
-      "RiRoadMapLine"
+      "Fas0"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -42,5 +42,6 @@
   "roadmap": "RiRoadMapLine",
   "source-notes": "Fas0",
   "sops": "FasRuler",
-  "mindmaps": "FasBrain"
+  "mindmaps": "FasBrain",
+  "open-sources": "SiGithub"
 }
