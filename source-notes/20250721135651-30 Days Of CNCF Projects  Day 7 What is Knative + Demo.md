@@ -25,4 +25,4 @@ What's Next:
   
 Join our Slack channel:  
 Join Slack: https://communityinviter.com/apps/cloud-native/cncf  
-Channel Name: #30-days-of-cncf-projects
+Channel Name: `#30-days-of-cncf-projects`

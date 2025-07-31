@@ -5,7 +5,7 @@ url: https://www.aibase.com/zh
 created: 2025-05-10T20:42:45
 tags:
   - bookmark
-  - tech-news/ai
+  - tech-news
 classified: true
 ---
 [AIbase基地 - 让更多人看到未来 通往AGI之路](https://www.aibase.com/zh)

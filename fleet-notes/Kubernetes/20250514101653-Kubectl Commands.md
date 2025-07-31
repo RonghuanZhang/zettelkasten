@@ -126,4 +126,10 @@ kubectl get pod hive-func-test-01-pack-git-pipeline-run-lq7xw-build-pod   -n ron
 
 ```
 
+# 查看Deployment 的 Service Account
+
+```shell
+kubectl get deployment <deployment> -n <namespace> -o jsonpath='{.spec.template.spec.serviceAccountName}'
+```
+
 # Reference
