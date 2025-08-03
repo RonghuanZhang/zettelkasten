@@ -6,7 +6,7 @@ created: 2025-08-03T21:20:54
 tags:
   - bookmark
   - open-source
-  - tool/drawing
+  - tool
 classified: false
 ---
 [stan-smith/FossFLOW: Make beautiful isometric infrastructure diagrams](https://github.com/stan-smith/FossFLOW?tab=readme-ov-file)
