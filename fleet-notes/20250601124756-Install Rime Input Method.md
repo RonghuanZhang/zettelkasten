@@ -1,16 +1,23 @@
 ---
 "type:": fleet-note
 "title:": 20250601124756-Install Rime Input Method
-id:: 20250601124807  # 唯一 ID，基于创建时间确保全局唯一
-created:: 2025-06-01T12:48:07  # 创建时间（ISO 格式）
+"id:": 20250601124807
+"created:": 2025-06-01T12:48:07
 url: 
 tags:
   - fleet-note
+  - tool/input-method
 "processed:": false
 "archived:": false
 ---
 
 # 如何自定义Squirrel的配置？
+
+路径在 User Library/Rime 下，更新词库：
+
+```shell
+git pull
+```
 
 新建有个文件：squirrel.custom.yaml
 
