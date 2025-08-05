@@ -7,9 +7,19 @@ url:
 tags:
   - sop
 ---
-# Word or Phrase
+# Word/Phrase
 
-# English Explanation
+# IPA & Pronunciation
+
+# Dictionary
+
+## Collins
+
+[Title Unavailable \| Site Unreachable](https://www.collinsdictionary.com/dictionary/english)
+
+## Youdao
+
+## Dictionary
 
 # Collocation
 
@@ -17,13 +27,11 @@ tags:
 
 # Related Words
 
-## Synonyms
-
-## Antonyms
+# Theme / Context
 
 # Make Sentences
 
-# Write Articles
+# Write a Paragraph or an Article
 
 # Make Cards
 
@@ -32,6 +40,38 @@ tags:
 
 
 
+
+**Word / Phrase**
+    
+2. **IPA & Pronunciation**
+    
+3. **English Definition**
+    
+4. **Chinese Translation (辅助理解)**
+    
+5. **Part of Speech & Word Family**
+    
+6. **Etymology (词源)**
+    
+7. **Collocations**
+    
+8. **Example Sentences (3+)**
+    
+9. **Synonyms & Differences**
+    
+10. **Antonyms**
+    
+11. **Theme / Context** (在哪些场景使用？)
+    
+12. **Make Sentences (主动输出)**
+    
+13. **Write a Short Paragraph or Article**
+    
+14. **Create Flashcards (Anki / Quizlet / 手写)**
+    
+15. **Review Plan (1 d, 3 d, 7 d, 14 d)**
+    
+16. **Visual Aid (Optional - 图像记忆)**
 
 
 ---
