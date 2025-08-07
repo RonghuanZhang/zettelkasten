@@ -35,6 +35,7 @@ tags:
 # Example Sentences
 
 # Related Words
+## Word Family
 ## Synonyms & Antonyms
 [Thesaurus-{{name}}](https://www.thesaurus.com/browse/{{name}})
 ## Root

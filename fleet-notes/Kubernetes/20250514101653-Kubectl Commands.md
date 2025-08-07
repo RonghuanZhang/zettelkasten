@@ -132,4 +132,19 @@ kubectl get pod hive-func-test-01-pack-git-pipeline-run-lq7xw-build-pod   -n ron
 kubectl get deployment <deployment> -n <namespace> -o jsonpath='{.spec.template.spec.serviceAccountName}'
 ```
 
+# 查看 Kubeconfig 的用户
+
+```shell
+kubectl config view --minify -o jsonpath='{.contexts[0].context.user}'
+```
+
+# 查看用户的权限
+
+```shell
+kubectl auth can-i impersonate users
+
+kubectl auth can-i impersonate users --as='system:serviceaccount:hive-orchestration:hive-orchestration'
+
+kubectl auth can-i get pod --as='system:serviceaccount:ronghuanz20:ronghuanz20'
+```
 # Reference
