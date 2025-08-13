@@ -145,6 +145,8 @@ kubectl config view --minify -o jsonpath='{.contexts[0].context.user}'
 ```shell
 kubectl auth can-i impersonate users
 
+kubectl auth can-i impersonate sa
+
 kubectl auth can-i impersonate users --as='system:serviceaccount:hive-orchestration:hive-orchestration'
 
 kubectl auth can-i get pod --as='system:serviceaccount:ronghuanz20:ronghuanz20'
