@@ -78,6 +78,8 @@ kubectl create rolebinding ronghzhang3-knative-serving-admin \
 kubectl logs <pod-name> -c <container-name> -n <namespace>
 logs -f
 logs --tail
+# 
+kubectl logs <pod-name> -c <container-name> --previous
 ```
 
 # 端口转发
