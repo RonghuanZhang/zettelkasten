@@ -95,7 +95,6 @@ Only support function. Fission provides autoscaling for functions based on CPU u
 
 # Reference
 * [CNCF Landscape](https://landscape.cncf.io/?group=serverless)
-
 * [Infrastructure as Code Tool Recommendation for GCP : r/googlecloud](https://www.reddit.com/r/googlecloud/comments/10soesp/infrastructure_as_code_tool_recommendation_for_gcp/)
 * [Open-source alternatives to Pulumi Cloud : r/pulumi](https://www.reddit.com/r/pulumi/comments/1fp6mej/opensource_alternatives_to_pulumi_cloud/?rdt=44972)
 * [Knative or openfaas? : r/kubernetes](https://www.reddit.com/r/kubernetes/comments/ar7mqr/knative_or_openfaas/)
