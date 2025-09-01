@@ -3,10 +3,11 @@
 "title:": 20250729091955-Knative Function Solution
 "id:": 20250729092025
 "created:": 2025-07-29T09:20:25
-url: 
+url:
 tags:
   - fleet-note
   - cloud-native/serverless/knative
+  - project/hive
 "processed:": false
 "archived:": false
 ---

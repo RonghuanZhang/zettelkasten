@@ -82,7 +82,7 @@ Features：
 
 ## 7.1 Diagrams
 
-[[Hive Technology Architecture.excalidraw]]
+[[Hive Application Architecture.excalidraw]]
 
 [[Hive Control and Request Flow.excalidraw]]
 
