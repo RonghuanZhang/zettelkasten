@@ -1,11 +1,12 @@
 ---
 "type:": fleet-note
 "title:": 20250519150714-Knative Custom Domain Pattern
-id:: 20250519150728  # 唯一 ID，基于创建时间确保全局唯一
-created:: 2025-05-19T15:07:28  # 创建时间（ISO 格式）
-url: 
+"id:": 20250519150728
+"created:": 2025-05-19T15:07:28
+url:
 tags:
   - fleet-note
+  - cloud-native/serverless/knative
 "processed:": false
 "archived:": false
 ---

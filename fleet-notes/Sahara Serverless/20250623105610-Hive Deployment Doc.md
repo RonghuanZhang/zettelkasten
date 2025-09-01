@@ -1,11 +1,12 @@
 ---
 "type:": fleet-note
 "title:": 20250623105610-Hive Deployment Doc
-id:: 20250623105616  # 唯一 ID，基于创建时间确保全局唯一
-created:: 2025-06-23T10:56:16  # 创建时间（ISO 格式）
-url: 
+"id:": 20250623105616
+"created:": 2025-06-23T10:56:16
+url:
 tags:
   - fleet-note
+  - project/hive
 "processed:": false
 "archived:": false
 ---
