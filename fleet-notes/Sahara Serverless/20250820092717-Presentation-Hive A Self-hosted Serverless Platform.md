@@ -6,6 +6,7 @@
 url:
 tags:
   - fleet-note
+  - project/hive
 "processed:": false
 "archived:": false
 ---

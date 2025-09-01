@@ -1,11 +1,12 @@
 ---
 "type:": fleet-note
 "title:": 20250818111028-Hive Service & Function State Machine
-id:: 20250818111111  # 唯一 ID，基于创建时间确保全局唯一
-created:: 2025-08-18T11:11:11  # 创建时间（ISO 格式）
-url: 
+"id:": 20250818111111
+"created:": 2025-08-18T11:11:11
+url:
 tags:
   - fleet-note
+  - project/hive
 "processed:": false
 "archived:": false
 ---
