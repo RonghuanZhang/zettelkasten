@@ -237,6 +237,34 @@
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false
+    },
+    {
+      "id": "e8b07e32-656a-431b-abc3-82a273e3f299",
+      "name": "New Cheet Sheet",
+      "type": "Template",
+      "command": true,
+      "templatePath": "templates/cheet-sheet-template.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{name}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": true
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
     }
   ],
   "macros": [],
