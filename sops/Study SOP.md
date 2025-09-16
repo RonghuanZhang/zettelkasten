@@ -1,21 +1,21 @@
 # Wide Learning
 
-- [ ] LLM 🔺 🔁 every week on Monday, Tuesday, Wednesday, Thursday, Friday 🛫 2025-07-26
+- [x] LLM 🔺 🔁 every week on Monday, Tuesday, Wednesday, Thursday, Friday 🛫 2025-07-26 ✅ 2025-09-13
 
 # Deep Learning
 
-- [ ] Serverless Platform 🔺 🔁 every week on Saturday, Sunday 🛫 2025-07-26
+- [x] Serverless Platform 🔺 🔁 every week on Saturday, Sunday 🛫 2025-07-26 ✅ 2025-09-13
 
 # Daily Learning
 
-- [ ] English 🔁 every day 🛫 2025-07-26
+- [x] English 🔁 every day 🛫 2025-07-26 ✅ 2025-09-13
 
-- [ ] LeetCode 🔁 every day 🛫 2025-07-26 
+- [x] LeetCode 🔁 every day 🛫 2025-07-26  ✅ 2025-09-13
 
-- [ ] News Reading 🔁 every day 🛫 2025-07-26 
+- [x] News Reading 🔁 every day 🛫 2025-07-26  ✅ 2025-09-13
 
 # Weekend Plan
 
-- [ ] Complete the Deep Learning Tasks 🔺 🔁 every week on Saturday, Sunday 🛫 2025-07-26
+- [x] Complete the Deep Learning Tasks 🔺 🔁 every week on Saturday, Sunday 🛫 2025-07-26 ✅ 2025-09-13
 
-- [ ] Organize the Fleet Notes, Literature Notes, and Source Notes 🔺 🔁 every week on Saturday, Sunday 🛫 2025-07-26
+- [x] Organize the Fleet Notes, Literature Notes, and Source Notes 🔺 🔁 every week on Saturday, Sunday 🛫 2025-07-26 ✅ 2025-09-13
