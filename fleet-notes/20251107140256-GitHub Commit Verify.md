@@ -1,11 +1,12 @@
 ---
 "type:": fleet-note
 "title:": 20251107140256-GitHub Commit Verify
-id:: 20251107140301  # 唯一 ID，基于创建时间确保全局唯一
-created:: 2025-11-07T14:03:01  # 创建时间（ISO 格式）
-url: 
+"id:": 20251107140301
+"created:": 2025-11-07T14:03:01
+url:
 tags:
   - fleet-note
+  - git
 "processed:": false
 "archived:": false
 ---
@@ -24,4 +25,9 @@ gpg: Go ahead and type your message ...
 ```
 
 [Sign commits with GPG keys \| IntelliJ IDEA Documentation](https://www.jetbrains.com/help/idea/2025.2/set-up-GPG-commit-signing.html?Set_up_GPG_commit_signing&keymap=macOS#configure-the-environment)
+
+不使用签名
+```shell
+git config commit.gpgSign false
+```
 # Reference
